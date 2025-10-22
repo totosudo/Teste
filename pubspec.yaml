@@ -1,0 +1,21 @@
+name: agenda_maximus
+description: Agenda Maximus - cadastro de visitas com lembretes (tema verde/preto e PIN 1234)
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.4
+  flutter_local_notifications: ^17.2.3
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
